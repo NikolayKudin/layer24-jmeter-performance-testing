@@ -1,0 +1,3 @@
+[submodule "layer24-performance-testing"]
+	path = layer24-performance-testing
+	url = git@github.com:NikolayKudin/layer24-performance-testing.git
