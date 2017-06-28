@@ -21,9 +21,9 @@
 
 Command to run main scenario in GUI mode (for debugging and editing):
 ```bash
-  jmeter -t layer24-test.jmx -l out/jmeter.log -q layer24.properties
+  jmeter --testfile layer24-test.jmx --jmeterlogfile out/jmeter.log --addprop layer24.properties
 ```
 Command to run main scenario in non-GUI mode (for production):
 ```bash
-  jmeter -t layer24-test.jmx -l out/jmeter.log -q layer24.properties
+  jmeter --testfile layer24-test.jmx --jmeterlogfile out/jmeter.log --addprop layer24.properties --nongui
 ```
