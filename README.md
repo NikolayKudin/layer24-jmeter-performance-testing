@@ -19,7 +19,11 @@
 
 ## Execution ##
 
-Run command:
+Command to run main scenario in GUI mode (for debugging and editing):
 ```bash
-  jmeter -t <scenario> -q layer24.properties
+  jmeter -t layer24-test.jmx -l out/jmeter.log -q layer24.properties
+```
+Command to run main scenario in non-GUI mode (for production):
+```bash
+  jmeter -t layer24-test.jmx -l out/jmeter.log -q layer24.properties
 ```
