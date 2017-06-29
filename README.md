@@ -21,9 +21,9 @@
 
 Command to run main scenario in GUI mode (for debugging and editing):
 ```bash
-  jmeter --testfile layer24-test.jmx --jmeterlogfile out/jmeter.log --addprop layer24.properties
+  jmeter --testfile layer24-test.jmx --jmeterlogfile out/jmeter.log -Jlayer24.server=<server> -Jlayer24.password.default=<password> -Jusers.amount=30 -Jloop.count=5
 ```
 Command to run main scenario in non-GUI mode (for production):
 ```bash
-  jmeter --testfile layer24-test.jmx --jmeterlogfile out/jmeter.log --addprop layer24.properties --nongui
+  jmeter --testfile layer24-test.jmx --jmeterlogfile out/jmeter.log -Jlayer24.server=<server> -Jlayer24.password.default=<password> -Jusers.amount=30 -Jloop.count=5 --nongui
 ```
