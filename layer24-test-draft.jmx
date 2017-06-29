@@ -174,7 +174,7 @@ vars.put(&quot;v_cookie&quot;,&quot;token=%22&quot; + response.token +&quot;%22;
                   <connectTime>true</connectTime>
                 </value>
               </objProp>
-              <stringProp name="filename">out/login_results.csv</stringProp>
+              <stringProp name="filename">out/login_results_${p_users_amount}_${p_loop_count}.csv</stringProp>
               <boolProp name="ResultCollector.success_only_logging">true</boolProp>
             </ResultCollector>
             <hashTree/>
@@ -285,7 +285,7 @@ vars.put(&quot;v_cookie&quot;,&quot;token=%22&quot; + response.token +&quot;%22;
                     <connectTime>true</connectTime>
                   </value>
                 </objProp>
-                <stringProp name="filename">out/last_year_results.csv</stringProp>
+                <stringProp name="filename">out/last_year_results_${p_users_amount}_${p_loop_count}.csv</stringProp>
                 <boolProp name="ResultCollector.success_only_logging">true</boolProp>
               </ResultCollector>
               <hashTree/>
@@ -385,7 +385,7 @@ vars.put(&quot;v_cookie&quot;,&quot;token=%22&quot; + response.token +&quot;%22;
                     <connectTime>true</connectTime>
                   </value>
                 </objProp>
-                <stringProp name="filename">out/last_year_daily_results.csv</stringProp>
+                <stringProp name="filename">out/last_year_daily_results_${p_users_amount}_${p_loop_count}.csv</stringProp>
                 <boolProp name="ResultCollector.success_only_logging">true</boolProp>
               </ResultCollector>
               <hashTree/>
